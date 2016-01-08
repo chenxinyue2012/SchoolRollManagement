@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.LoginAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageClassInsertAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageClassInsertAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageClassUpdateAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageClassUpdateAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageClassDeleteAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageClassDeleteAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageStudentInsertAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageStudentInsertAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageChangeUpdateAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageChangeUpdateAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageChangeInsertAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageChangeInsertAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ManageRewPublishAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.ManageRewPublishAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuPwdChangeAction</servlet-name>
+    <servlet-class>org.schoolrole.servlets.StuPwdChangeAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginAction</servlet-name>
+    <url-pattern>/LoginAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageClassInsertAction</servlet-name>
+    <url-pattern>/ManageClassInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageClassUpdateAction</servlet-name>
+    <url-pattern>/ManageClassUpdateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageClassDeleteAction</servlet-name>
+    <url-pattern>/ManageClassDeleteAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageStudentInsertAction</servlet-name>
+    <url-pattern>/ManageStudentInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageChangeUpdateAction</servlet-name>
+    <url-pattern>/ManageChangeUpdateAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageChangeInsertAction</servlet-name>
+    <url-pattern>/ManageChangeInsertAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManageRewPublishAction</servlet-name>
+    <url-pattern>/ManageRewPublishAction</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StuPwdChangeAction</servlet-name>
+    <url-pattern>/StuPwdChangeAction</url-pattern>
+  </servlet-mapping>
+
+</web-app>

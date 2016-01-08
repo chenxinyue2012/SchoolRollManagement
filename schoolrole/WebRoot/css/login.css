@@ -1,0 +1,66 @@
+body {
+  background: url(../images/login_02.gif) repeat-x ;
+}
+#login {
+  width: 974px;
+  height: 607px;
+  background-color: red;
+  margin: 0 auto;
+  position: relative;
+}
+#head {
+  width: 974px;
+  height: 331px;
+  background-image: url(../images/login_01.jpg);  
+}
+.content {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: 380px;
+  top: 220px;
+  color: #fff;
+}
+#loginInform {
+	 position: absolute;
+	  width: 174px;
+	  height: 30px;
+	  left: 380px;
+	  top: 380px;
+}
+.write {
+  width: 75px;
+  color: #fff;
+  background-color: #2f4657;
+}
+#left {
+  width: 393px;
+  height: 116px;
+  background-image: url(../images/login_05.gif);  
+  position: absolute;
+  left:0;
+  top:331px;
+}
+#right {
+  width: 407px;
+  height: 116px;
+  background-image: url(../images/login_07.gif);
+  position: absolute;
+  right: 0;
+  top:331px;
+}
+#center {
+  width: 174px;
+  height: 116px;
+  background-image: url(../images/login_06.gif);
+  margin-left: 393px;
+  margin-right: 407px;
+
+
+}
+#footer {
+  clear: both;
+  width: 974px;
+  height: 160px;
+  background-image: url(../images/login_12.gif);
+}

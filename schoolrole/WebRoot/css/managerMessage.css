@@ -1,0 +1,74 @@
+/*头部*/
+#headings {
+	width:1360px;
+	height:80px;
+	border:2px solid #ccc;
+	border-bottom: 4px solid #0279cd;
+}
+/*头部--标识*/
+#logo {
+	width: 250px;
+	height: 80px;
+	float: left;
+	font-weight: bold;
+	line-height:80px;
+	color:#0279cd;
+	padding-left:20px;
+	font-size: 25px;
+}
+
+/*头部--横向导航菜单*/
+#menu {
+	width: 600px;
+	height: 80px;
+	float: left;
+	
+}
+#menu li {
+	display:block;
+	width:90px;
+	height:35px;
+	float:left;
+	margin-right:20px;
+	margin-left:10px;
+	padding-top:60px;
+
+}
+.current {
+	dispaly:block;
+	background-color: #0279cd;
+	border-radius:3px;
+	color:white;
+} 
+/*头部--欢迎或退出*/
+#userWelcome {
+	width: 300px;
+	height:50px;
+	float:right;
+}
+/*侧栏*/
+#sidebar {
+	width:200px;
+    height:470px;
+	border:2px solid #ccc;
+	padding-top:20px;
+	padding-left:20px;
+	float:left;
+}
+#student{
+	display:none;
+}
+#change {
+	display:none;	
+}
+#rewardOrPublish {
+	display:none;	
+}
+#mgPwd {
+	display:none;	
+}
+/*内容显示区*/
+#mainContent {
+	float:left;
+}
+
